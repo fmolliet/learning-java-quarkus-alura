@@ -67,6 +67,22 @@
         <artifactId>quarkus-maven-plugin</artifactId>
         <version>${quarkus-plugin.version}</version>
         <executions>
+            <execution>
+                <goals>
+                    <goal>generate-code</goal>
+                    <goal>generate-code-tests</goal>
+                    <goal>build</goal>
+                </goals>
+            </execution>
+        </executions>
+    </plugin>
+      
+      
+      <plugin>
+        <groupId>io.quarkus</groupId>
+        <artifactId>quarkus-maven-plugin</artifactId>
+        <version>${quarkus-plugin.version}</version>
+        <executions>
           <execution>
             <goals>
               <goal>generate-code</goal>
