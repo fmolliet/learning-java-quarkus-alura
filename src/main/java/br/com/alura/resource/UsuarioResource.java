@@ -1,4 +1,4 @@
-package br.com.alura;
+package br.com.alura.resource;
 
 import javax.transaction.Transactional;
 import javax.ws.rs.Consumes;
