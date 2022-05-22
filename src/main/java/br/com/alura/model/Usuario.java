@@ -9,6 +9,7 @@ import io.quarkus.hibernate.orm.panache.PanacheEntityBase;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
+// Acesso a base de dados como Active Record
 @Entity
 @Data
 @EqualsAndHashCode(callSuper=false)
