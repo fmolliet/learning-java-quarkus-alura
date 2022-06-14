@@ -10,6 +10,7 @@ import javax.persistence.Id;
 
 import lombok.Data;
 
+// Acesso a entidade via PanacheEntity
 @Entity
 @Data
 public class Ordem {
